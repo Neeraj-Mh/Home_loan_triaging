@@ -1,0 +1,16 @@
+{"ts": "2026-10-26T11:16:35", "app": "APP-1001", "agent": "DocumentAgent", "action": "extract", "detail": {"employer": "Harbour Analytics Pty Ltd", "stated_gross": 145000, "stated_net_monthly": 8290.0}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1001", "agent": "VerificationAgent", "action": "verify", "detail": {"verified_net": 8290, "flags": []}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1001", "agent": "PolicyAgent", "action": "policy_check", "detail": {"lvr": 80.0, "surplus": -47, "scheme": false, "hard_fail": false}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1001", "agent": "ReviewerAgent", "action": "decision", "detail": {"decision": "REFER_TO_UNDERWRITER", "confidence": 0.55, "queue": "Senior underwriter (manual review)"}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1002", "agent": "DocumentAgent", "action": "extract", "detail": {"employer": "Southern Freight Co", "stated_gross": 175000, "stated_net_monthly": 10200.0}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1002", "agent": "VerificationAgent", "action": "verify", "detail": {"verified_net": 8900, "flags": ["INCOME_MISMATCH", "GAMBLING_ACTIVITY"]}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1002", "agent": "PolicyAgent", "action": "policy_check", "detail": {"lvr": 76.9, "surplus": 747, "scheme": false, "hard_fail": false}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1002", "agent": "ReviewerAgent", "action": "decision", "detail": {"decision": "REFER_TO_UNDERWRITER", "confidence": 0.55, "queue": "Senior underwriter (manual review)"}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1003", "agent": "DocumentAgent", "action": "extract", "detail": {"employer": "Bluegum Health", "stated_gross": 118000, "stated_net_monthly": 7500.0}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1003", "agent": "VerificationAgent", "action": "verify", "detail": {"verified_net": 7500, "flags": []}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1003", "agent": "PolicyAgent", "action": "policy_check", "detail": {"lvr": 95.0, "surplus": 622, "scheme": true, "hard_fail": false}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1003", "agent": "ReviewerAgent", "action": "decision", "detail": {"decision": "APPROVE_RECOMMENDED", "confidence": 0.92, "queue": "Underwriter (fast-track sign-off)"}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1004", "agent": "DocumentAgent", "action": "extract", "detail": {"employer": "Ridge Constructions", "stated_gross": 85000, "stated_net_monthly": 5400.0}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1004", "agent": "VerificationAgent", "action": "verify", "detail": {"verified_net": 5400, "flags": []}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1004", "agent": "PolicyAgent", "action": "policy_check", "detail": {"lvr": 90.3, "surplus": -3513, "scheme": false, "hard_fail": true}}
+{"ts": "2026-10-26T11:16:35", "app": "APP-1004", "agent": "ReviewerAgent", "action": "decision", "detail": {"decision": "DECLINE_RECOMMENDED", "confidence": 0.9, "queue": "Underwriter (confirm decline)"}}
